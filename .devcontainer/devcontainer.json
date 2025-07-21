@@ -1,0 +1,23 @@
+{
+    "name": "C++ Development Environment",
+    "image": "mcr.microsoft.com/devcontainers/cpp:latest",
+    "features": {
+      "ghcr.io/devcontainers/features/common-utils:2": {
+        "installZsh": true,
+        "username": "vscode",
+        "upgradePackages": true
+      },
+      "ghcr.io/devcontainers/features/cmake:1": {}
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.cpptools",
+          "ms-vscode.cmake-tools",
+          "twxs.cmake"
+        ]
+      }
+    },
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential cmake",
+    "remoteUser": "vscode"
+}

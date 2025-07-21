@@ -1,0 +1,29 @@
+# Build directories
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE specific
+.vscode/
+.cache/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Executables
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+
+# Dependency directories
+**/deps/
+.venv
+__pycache__
