@@ -1,6 +1,5 @@
 ## Expectile-Based Framework
 
-[![Lint](https://github.com/0xnu/expectile-based-framework/actions/workflows/lint.yaml/badge.svg)](https://github.com/0xnu/expectile-based-framework/actions/workflows/lint.yaml)
 [![Release](https://img.shields.io/github/release/0xnu/expectile-based-framework.svg)](https://github.com/0xnu/expectile-based-framework/releases/latest)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.13391-purple)](https://arxiv.org/abs/2507.13391)
 [![License](https://img.shields.io/badge/License-Modified_MIT-f5de53?&color=f5de53)](/LICENSE)
